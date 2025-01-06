@@ -5,6 +5,7 @@
 ## 利用方法
 上部のtextareaにエンコードしたい文字列をペーストして [↓endoed]ボタンをクリックするとBase64にエンコードした文字列が下部のtextareaに表示されます。
 同様に、下部のtextareaにデコードしたいbase64文字列をペーストして [↑decode]ボタンをクリックするとBase64からデコードした文字列が上部のtextareaに表示されます。
+また、それぞれのtextareaには対応したテキストファイルがドロップできます。
 
 ## サンプルページ
 https://service.moyurani.com/base64/

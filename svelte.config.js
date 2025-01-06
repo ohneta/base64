@@ -15,7 +15,7 @@ const config = {
 
 		adapter: adapter()
 
-		// for SSG
+		// // for SSG
 		// adapter: adapter({
 		// 	pages: 'build',
 		// 	assets: 'build',
