@@ -29,8 +29,6 @@
 		willDecodeText = '';
 	}
 
-
-
 	function handlerDragOver(evt: DragEvent) {
 		evt.preventDefault();
 	}
@@ -89,7 +87,7 @@
 		ondragover={handlerDragOver}
 		ondrop={handleFileDropEncode}
 		id="will-encode-text" class="textarea textarea-bordered textarea-xs w-full max-w-xs" cols="40" rows="4" bind:value={willEncodeText}
-		placeholder="plan text or file"></textarea>
+		placeholder="plane text or file"></textarea>
 
 	<div class="base64-button-area">
 		<buttom class="btn btn-xs btn-outline" onclick={handleEncodeButtonClick}><i class="bi bi-arrow-down-square-fill" />encode</buttom>
