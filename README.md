@@ -5,13 +5,12 @@
 ## 利用方法
 上部のtextareaにエンコードしたい文字列をペーストして [↓endoed]ボタンをクリックするとBase64にエンコードした文字列が下部のtextareaに表示されます。
 同様に、下部のtextareaにデコードしたいbase64文字列をペーストして [↑decode]ボタンをクリックするとBase64からデコードした文字列が上部のtextareaに表示されます。
-また、それぞれのtextareaには対応したテキストファイルがドロップできます。
+encode textareaにはテキストファイルと画像ファイル(JPEG, PNG)がドロップでき、エンコードできます。
+decode textareaにはテキストファイルがドロップできます。
+また、 [use dataURL]チェックボックスでdataURLの有/無に対応します。
 
 ## サンプルページ
 https://service.moyurani.com/base64/
-
-### 注意
-エラーハンドリングはできていないので、不正確なbase64文字列を与えられると内部エラーが発生して処理が中断します。(主にデコーダ)
 
 
 ## 開発環境
@@ -24,6 +23,7 @@ npm run dev
 npm run dev -- --open
 ```
 
+<!-- 
 ## ビルド
 実行するにはnpmを使ってビルドします。
 
@@ -35,3 +35,4 @@ npm run build
 # ビルド結果をプレビュー
 npm run preview -- --open
 ```
+-->
